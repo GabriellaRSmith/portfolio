@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+  background-color: rgb(239, 253, 217);
+  /* cursor: url('icons8-cursor-50.cur'), default; */
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.main {
+  display: flex;
+  min-height: 100vh;
+  height: 100%
+  
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.left{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Align content towards the bottom */
+  align-items: center;
+  
+  
+  /* background-color: rgb(239, 253, 217); */
+}
+
+.left h1{
+  padding-top: 35%;
+}
+
+.left h2{
+  font-size: 18px;
+}
+
+.floating-text {
+  animation: float-text 2s ease-in-out forwards; /* Animation name, duration, timing function, and direction */
+}
+
+@keyframes float-text { /* Define the animation keyframes */
+  from { transform: translateY(50px); opacity: 0; } /* Start from a higher position and transparent */
+  to { transform: translateY(0px); opacity: 1; } /* End at original position and fully opaque */
+}
+
+.links{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+
+  
+
+}
+
+.i {
+  color: black;
+}
+
+.i:hover {
+  color: #6fbb73;
+}
+
+.t-button{
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 20px; 
+  padding: 10px 15px; 
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+
+}
+
+.t-button:hover {
+  border: 2px solid #65c269;
+  color: #65c269;
+}
+
+.right{
+  width: 60%;
+  /* background-color: rgb(172, 212, 107); */
+}
+
+.about{
+  padding-top: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about p{
+  padding-left: 10%;
+  width: 50%;
+  text-align: left;
+}
+
+.circular-img {
+  width: 250px; /* Adjust width as needed */
+  height: 250px; /* Adjust height as needed */
+  border-radius: 50%; /* Set 50% for a perfect circle */
+  overflow: hidden; /* Hide overflowing parts */
+}
+
+.skill-title{
+  padding-top: 10%;
+  font-size: 32px;
+}
+
+.skill-box {
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20%;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+
+.skill-box .i {
+  margin-right: 100px; /* Add spacing between icons */
+}
+
+.top-row {
+  padding-bottom: 40px;
+  
+}
+
+.bottom-row{
+  justify-content: center;
+}
+
+.sql {
+  width: 70px;
+  height: 70px;
+}
