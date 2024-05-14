@@ -41,7 +41,7 @@ function App() {
 
 I am also involved in research investigating how virtual humans can be utilized to improve sexual health communication. 
 </p>
-            <img src="pic.png" className='circular-img'/>
+            <img src="portfolio/pic.png" className='circular-img'/>
           </div>
           <div className='skills right'>
             <h1 class="skill-title" >My Skills</h1>
@@ -55,7 +55,7 @@ I am also involved in research investigating how virtual humans can be utilized 
               </div>
               <div className='bottom-row skill-box'>
               <FontAwesomeIcon icon={faNodeJs} size="4x" style={{ marginRight: '20px' }} className='i'/>
-              <img src='sql.png' className='i sql'/>
+              <img src='portfolio/sql.png' className='i sql'/>
               </div>
               
               
