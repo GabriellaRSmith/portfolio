@@ -114,6 +114,7 @@
   height: 250px; /* Adjust height as needed */
   border-radius: 50%; /* Set 50% for a perfect circle */
   overflow: hidden; /* Hide overflowing parts */
+  padding-left: 10px;
 }
 
 .skill-title{

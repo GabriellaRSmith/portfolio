@@ -1,4 +1,3 @@
-
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //ways to contact me icons
@@ -38,8 +37,11 @@ function App() {
           {/* The about section */}
           <div class="about">
             
-            <p>I am a rising junior computer science student with a minor in Digital Arts and Sciences. </p>
-            <img src='pic.png' className='circular-img'/>
+            <p>I am a rising junior computer science student with a minor in Digital Arts and Sciences. While at the University of Florida, I have gotten involved in many organizations to heighten my technical skills and gain hands-on experience. In Dream Team Engineering, our mission is to use our technical expertise to solve medical problems facing patients and doctors at local Gainesville hospitals and UF Health. Through this organization, I have worked on a patient portal for the Equal Access Clinics of Gainesville and a VR game to help teach newly diagnosed diabetic-children about fats and carbohydrates. 
+
+I am also involved in research investigating how virtual humans can be utilized to improve sexual health communication. 
+</p>
+            <img src="pic.png" className='circular-img'/>
           </div>
           <div className='skills right'>
             <h1 class="skill-title" >My Skills</h1>
@@ -54,8 +56,6 @@ function App() {
               <div className='bottom-row skill-box'>
               <FontAwesomeIcon icon={faNodeJs} size="4x" style={{ marginRight: '20px' }} className='i'/>
               <img src='sql.png' className='i sql'/>
-
-              
               </div>
               
               
